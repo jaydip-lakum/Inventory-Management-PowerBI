@@ -1,0 +1,501 @@
+TransactionID,TransactionDate,SKU,ProductName,Category,Supplier,Warehouse,OpeningStock,UnitsReceived,UnitsSold,ClosingStock,ReorderLevel,UnitCost,LeadTimeDays,StockStatus
+INV001,2025-01-03,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,120,40,55,105,50,650,5,Healthy
+INV002,2025-01-07,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,90,30,70,50,45,400,7,Healthy
+INV003,2025-01-12,SKU003,Office Chair,Furniture,Supplier C,Vadodara,60,20,45,35,40,3200,10,Reorder
+INV004,2025-01-18,SKU004,Keyboard,Electronics,Supplier B,Surat,100,50,80,70,50,750,6,Healthy
+INV005,2025-02-02,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,75,25,60,40,35,550,8,Healthy
+INV006,2025-02-09,SKU006,Monitor Stand,Accessories,Supplier A,Ahmedabad,85,30,75,40,45,900,5,Reorder
+INV007,2025-02-15,SKU007,Study Table,Furniture,Supplier C,Vadodara,50,15,40,25,30,4500,12,Reorder
+INV008,2025-02-23,SKU008,USB Cable,Electronics,Supplier B,Surat,200,100,160,140,80,120,4,Healthy
+INV009,2025-03-04,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,300,120,250,170,100,80,6,Healthy
+INV010,2025-03-11,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,400,150,370,180,120,45,5,Healthy
+INV011,2025-03-19,SKU011,Headphones,Electronics,Supplier B,Surat,70,35,65,40,50,1100,7,Reorder
+INV012,2025-03-28,SKU012,File Organizer,Stationery,Supplier E,Ahmedabad,150,60,130,80,70,250,6,Healthy
+INV013,2025-04-05,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,40,10,32,18,25,6500,14,Reorder
+INV014,2025-04-13,SKU014,Power Bank,Electronics,Supplier B,Surat,110,45,100,55,60,800,8,Reorder
+INV015,2025-04-21,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,130,50,90,90,55,300,5,Healthy
+INV016,2025-05-03,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,65,20,50,35,40,1200,9,Reorder
+INV017,2025-05-12,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,250,100,220,130,90,200,6,Healthy
+INV018,2025-05-20,SKU018,Webcam,Electronics,Supplier B,Surat,55,25,60,20,35,1800,10,Reorder
+INV019,2025-06-01,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,45,15,35,25,30,3800,13,Reorder
+INV020,2025-06-09,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,180,70,140,110,75,150,4,Healthy
+INV021,2025-06-17,SKU021,Calculator,Stationery,Supplier E,Rajkot,160,50,120,90,60,350,6,Healthy
+INV022,2025-07-02,SKU022,LED Monitor,Electronics,Supplier B,Surat,35,15,30,20,25,7200,11,Reorder
+INV023,2025-07-15,SKU023,Storage Box,Home Office,Supplier D,Rajkot,95,40,80,55,50,500,7,Healthy
+INV024,2025-07-28,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,100,35,90,45,55,700,5,Reorder
+INV025,2025-08-03,SKU008,USB Cable,Electronics,Supplier B,Vadodara,163,85,145,103,73,135,4,Healthy
+INV026,2025-08-04,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,153,108,134,127,39,1785,12,Healthy
+INV027,2025-08-04,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,25,35,36,24,22,7040,16,Healthy
+INV028,2025-08-04,SKU012,File Organizer,Stationery,Supplier E,Ahmedabad,435,126,158,403,70,250,5,Healthy
+INV029,2025-08-05,SKU016,Whiteboard,Home Office,Supplier D,Vadodara,60,18,23,55,50,1340,10,Healthy
+INV030,2025-08-06,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,244,80,168,156,61,715,6,Healthy
+INV031,2025-08-09,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,70,22,32,60,31,4245,12,Healthy
+INV032,2025-08-10,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,110,56,115,51,48,1305,10,Healthy
+INV033,2025-08-10,SKU011,Headphones,Electronics,Supplier B,Ahmedabad,142,82,105,119,44,1210,8,Healthy
+INV034,2025-08-11,SKU008,USB Cable,Electronics,Supplier B,Vadodara,221,75,138,158,87,120,5,Healthy
+INV035,2025-08-13,SKU007,Study Table,Furniture,Supplier C,Vadodara,95,19,56,58,36,4935,14,Healthy
+INV036,2025-08-14,SKU004,Keyboard,Electronics,Supplier B,Ahmedabad,111,74,104,81,60,800,7,Healthy
+INV037,2025-08-15,SKU019,Book Shelf,Furniture,Supplier C,Rajkot,81,31,40,72,31,3600,13,Healthy
+INV038,2025-08-16,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,74,18,26,66,24,6700,14,Healthy
+INV039,2025-08-16,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,500,201,338,363,88,215,6,Healthy
+INV040,2025-08-17,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,135,86,137,84,44,390,6,Healthy
+INV041,2025-08-18,SKU003,Office Chair,Furniture,Supplier C,Rajkot,86,31,64,53,43,2995,10,Healthy
+INV042,2025-08-20,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,422,50,291,181,85,220,5,Healthy
+INV043,2025-08-21,SKU020,Mouse Pad,Accessories,Supplier A,Rajkot,205,103,99,209,86,145,4,Healthy
+INV044,2025-08-21,SKU014,Power Bank,Electronics,Supplier B,Surat,87,77,60,104,74,825,7,Healthy
+INV045,2025-08-23,SKU004,Keyboard,Electronics,Supplier B,Surat,110,79,170,19,44,780,5,Reorder
+INV046,2025-08-22,SKU015,Desk Mat,Accessories,Supplier A,Rajkot,161,53,87,127,64,315,4,Healthy
+INV047,2025-08-23,SKU018,Webcam,Electronics,Supplier B,Surat,88,36,103,21,41,1980,10,Reorder
+INV048,2025-08-25,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,138,66,86,118,42,1175,9,Healthy
+INV049,2025-08-27,SKU017,Printer Paper,Stationery,Supplier E,Surat,492,127,382,237,80,185,6,Healthy
+INV050,2025-08-27,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,136,212,206,142,126,40,5,Healthy
+INV051,2025-08-28,SKU016,Whiteboard,Home Office,Supplier D,Surat,86,18,69,35,45,1255,9,Reorder
+INV052,2025-08-29,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,141,21,59,103,49,1320,8,Healthy
+INV053,2025-08-29,SKU022,LED Monitor,Electronics,Supplier B,Surat,86,18,67,37,26,7320,12,Healthy
+INV054,2025-08-30,SKU021,Calculator,Stationery,Supplier E,Rajkot,502,160,347,315,58,335,5,Healthy
+INV055,2025-09-01,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,185,54,185,54,54,650,7,Reorder
+INV056,2025-09-01,SKU004,Keyboard,Electronics,Supplier B,Ahmedabad,230,69,148,151,46,810,8,Healthy
+INV057,2025-09-04,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,85,42,55,72,26,7070,13,Healthy
+INV058,2025-09-05,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,48,43,59,32,77,125,3,Reorder
+INV059,2025-09-04,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,188,56,163,81,55,650,5,Healthy
+INV060,2025-09-07,SKU023,Storage Box,Home Office,Supplier D,Surat,129,35,56,108,47,550,6,Healthy
+INV061,2025-09-07,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,491,210,358,343,96,85,6,Healthy
+INV062,2025-09-07,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,75,28,70,33,21,6510,15,Healthy
+INV063,2025-09-10,SKU008,USB Cable,Electronics,Supplier B,Vadodara,226,43,164,105,72,120,5,Healthy
+INV064,2025-09-10,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,65,23,31,57,54,425,8,Healthy
+INV065,2025-09-11,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,54,68,24,98,94,130,6,Healthy
+INV066,2025-09-11,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,136,59,104,91,33,610,8,Healthy
+INV067,2025-09-13,SKU020,Mouse Pad,Accessories,Supplier A,Surat,153,64,95,122,74,145,6,Healthy
+INV068,2025-09-15,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,442,80,182,340,97,190,6,Healthy
+INV069,2025-09-16,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,56,18,62,12,24,6660,14,Reorder
+INV070,2025-09-17,SKU012,File Organizer,Stationery,Supplier E,Rajkot,410,190,255,345,86,270,6,Healthy
+INV071,2025-09-17,SKU001,Laptop Bag,Accessories,Supplier A,Surat,206,37,171,72,54,630,5,Healthy
+INV072,2025-09-18,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,224,83,99,208,46,650,5,Healthy
+INV073,2025-09-19,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,199,96,150,145,47,675,4,Healthy
+INV074,2025-09-21,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,190,21,87,124,93,135,3,Healthy
+INV075,2025-09-23,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,103,60,93,70,49,1220,10,Healthy
+INV076,2025-09-24,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,76,35,67,44,29,6290,14,Healthy
+INV077,2025-09-23,SKU018,Webcam,Electronics,Supplier B,Surat,206,87,154,139,42,1860,12,Healthy
+INV078,2025-09-24,SKU022,LED Monitor,Electronics,Supplier B,Surat,38,30,23,45,31,6645,11,Healthy
+INV079,2025-09-26,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,218,29,155,92,83,150,4,Healthy
+INV080,2025-09-28,SKU014,Power Bank,Electronics,Supplier B,Surat,137,35,147,25,58,750,8,Reorder
+INV081,2025-09-28,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,59,28,39,48,30,540,8,Healthy
+INV082,2025-09-30,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,75,16,50,41,26,6405,13,Healthy
+INV083,2025-10-01,SKU014,Power Bank,Electronics,Supplier B,Vadodara,109,17,52,74,72,785,7,Healthy
+INV084,2025-10-01,SKU003,Office Chair,Furniture,Supplier C,Vadodara,87,32,61,58,41,3065,12,Healthy
+INV085,2025-10-01,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,223,61,118,166,59,750,5,Healthy
+INV086,2025-10-03,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,116,50,104,62,50,445,7,Healthy
+INV087,2025-10-05,SKU008,USB Cable,Electronics,Supplier B,Surat,222,71,158,135,97,125,3,Healthy
+INV088,2025-10-04,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,89,19,42,66,41,600,8,Healthy
+INV089,2025-10-06,SKU012,File Organizer,Stationery,Supplier E,Rajkot,197,106,97,206,61,275,8,Healthy
+INV090,2025-10-07,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,73,53,69,57,53,280,5,Healthy
+INV091,2025-10-08,SKU020,Mouse Pad,Accessories,Supplier A,Rajkot,242,78,101,219,79,160,3,Healthy
+INV092,2025-10-10,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,245,88,179,154,77,150,5,Healthy
+INV093,2025-10-10,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,88,18,55,51,38,1285,10,Healthy
+INV094,2025-10-12,SKU004,Keyboard,Electronics,Supplier B,Surat,93,35,46,82,52,700,5,Healthy
+INV095,2025-10-13,SKU014,Power Bank,Electronics,Supplier B,Vadodara,177,80,141,116,62,775,9,Healthy
+INV096,2025-10-12,SKU024,Laptop Stand,Accessories,Supplier A,Surat,142,26,129,39,67,700,6,Reorder
+INV097,2025-10-13,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,249,94,113,230,43,640,5,Healthy
+INV098,2025-10-16,SKU014,Power Bank,Electronics,Supplier B,Surat,171,42,94,119,58,835,8,Healthy
+INV099,2025-10-16,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,377,188,413,152,111,80,7,Healthy
+INV100,2025-10-17,SKU021,Calculator,Stationery,Supplier E,Ahmedabad,261,69,284,46,53,375,5,Reorder
+INV101,2025-10-18,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,95,52,80,67,30,1790,11,Healthy
+INV102,2025-10-18,SKU006,Monitor Stand,Accessories,Supplier A,Rajkot,244,113,142,215,48,910,7,Healthy
+INV103,2025-10-19,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,477,174,328,323,112,50,5,Healthy
+INV104,2025-10-20,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,70,30,30,70,31,510,9,Healthy
+INV105,2025-10-22,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,101,92,81,112,26,7620,12,Healthy
+INV106,2025-10-23,SKU021,Calculator,Stationery,Supplier E,Surat,455,206,336,325,66,345,7,Healthy
+INV107,2025-10-24,SKU012,File Organizer,Stationery,Supplier E,Ahmedabad,360,95,335,120,73,275,5,Healthy
+INV108,2025-10-24,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,345,161,173,333,112,50,6,Healthy
+INV109,2025-10-26,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,159,185,147,197,113,75,7,Healthy
+INV110,2025-10-28,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,172,85,98,159,68,725,5,Healthy
+INV111,2025-10-29,SKU019,Book Shelf,Furniture,Supplier C,Rajkot,68,11,65,14,27,3950,14,Reorder
+INV112,2025-10-31,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,45,26,40,31,33,560,9,Reorder
+INV113,2025-10-30,SKU023,Storage Box,Home Office,Supplier D,Rajkot,105,17,47,75,56,500,9,Healthy
+INV114,2025-11-01,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,81,82,141,22,48,610,6,Reorder
+INV115,2025-11-03,SKU018,Webcam,Electronics,Supplier B,Surat,107,96,109,94,38,1815,11,Healthy
+INV116,2025-11-03,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,240,64,116,188,43,425,7,Healthy
+INV117,2025-11-05,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,180,31,116,95,54,390,7,Healthy
+INV118,2025-11-06,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,59,76,62,73,54,400,7,Healthy
+INV119,2025-11-05,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,497,162,420,239,148,45,5,Healthy
+INV120,2025-11-08,SKU012,File Organizer,Stationery,Supplier E,Surat,293,92,351,34,72,230,7,Reorder
+INV121,2025-11-09,SKU008,USB Cable,Electronics,Supplier B,Surat,187,87,136,138,84,115,4,Healthy
+INV122,2025-11-10,SKU003,Office Chair,Furniture,Supplier C,Vadodara,53,22,47,28,40,3385,11,Reorder
+INV123,2025-11-10,SKU012,File Organizer,Stationery,Supplier E,Rajkot,225,192,306,111,78,235,7,Healthy
+INV124,2025-11-10,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,29,32,20,41,27,4255,13,Healthy
+INV125,2025-11-11,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,330,91,381,40,84,215,7,Reorder
+INV126,2025-11-13,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,168,120,109,179,77,160,4,Healthy
+INV127,2025-11-15,SKU018,Webcam,Electronics,Supplier B,Vadodara,57,61,100,18,36,1670,10,Reorder
+INV128,2025-11-14,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,217,37,85,169,72,150,4,Healthy
+INV129,2025-11-15,SKU002,Wireless Mouse,Electronics,Supplier B,Ahmedabad,171,70,180,61,44,430,7,Healthy
+INV130,2025-11-18,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,69,11,32,48,30,6585,16,Healthy
+INV131,2025-11-18,SKU012,File Organizer,Stationery,Supplier E,Rajkot,123,129,124,128,64,275,8,Healthy
+INV132,2025-11-18,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,67,24,45,46,28,6210,15,Healthy
+INV133,2025-11-21,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,258,58,196,120,127,40,5,Reorder
+INV134,2025-11-21,SKU018,Webcam,Electronics,Supplier B,Surat,183,48,90,141,37,1720,11,Healthy
+INV135,2025-11-21,SKU015,Desk Mat,Accessories,Supplier A,Surat,162,66,111,117,66,325,4,Healthy
+INV136,2025-11-23,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,366,102,411,57,140,45,7,Reorder
+INV137,2025-11-25,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,56,13,59,10,27,4250,12,Reorder
+INV138,2025-11-25,SKU024,Laptop Stand,Accessories,Supplier A,Surat,71,101,63,109,52,675,6,Healthy
+INV139,2025-11-27,SKU014,Power Bank,Electronics,Supplier B,Vadodara,231,16,131,116,73,810,9,Healthy
+INV140,2025-11-26,SKU023,Storage Box,Home Office,Supplier D,Rajkot,51,54,37,68,44,540,8,Healthy
+INV141,2025-11-29,SKU010,Pen Pack,Stationery,Supplier E,Surat,340,216,392,164,106,50,6,Healthy
+INV142,2025-11-29,SKU004,Keyboard,Electronics,Supplier B,Surat,52,99,79,72,57,840,6,Healthy
+INV143,2025-12-01,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,32,22,14,40,28,3925,13,Healthy
+INV144,2025-12-01,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,264,125,295,94,119,45,4,Reorder
+INV145,2025-12-02,SKU014,Power Bank,Electronics,Supplier B,Surat,235,100,148,187,57,820,8,Healthy
+INV146,2025-12-04,SKU014,Power Bank,Electronics,Supplier B,Surat,123,96,67,152,66,845,8,Healthy
+INV147,2025-12-04,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,152,60,145,67,54,385,8,Healthy
+INV148,2025-12-05,SKU001,Laptop Bag,Accessories,Supplier A,Surat,226,66,147,145,49,615,7,Healthy
+INV149,2025-12-07,SKU011,Headphones,Electronics,Supplier B,Surat,185,43,170,58,45,1140,6,Healthy
+INV150,2025-12-07,SKU015,Desk Mat,Accessories,Supplier A,Surat,115,75,139,51,52,285,6,Reorder
+INV151,2025-12-09,SKU008,USB Cable,Electronics,Supplier B,Surat,239,67,175,131,78,130,4,Healthy
+INV152,2025-12-11,SKU021,Calculator,Stationery,Supplier E,Surat,122,215,225,112,69,370,7,Healthy
+INV153,2025-12-11,SKU001,Laptop Bag,Accessories,Supplier A,Surat,214,56,71,199,45,615,6,Healthy
+INV154,2025-12-13,SKU015,Desk Mat,Accessories,Supplier A,Rajkot,254,69,146,177,48,295,6,Healthy
+INV155,2025-12-12,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,28,34,25,37,26,6765,15,Healthy
+INV156,2025-12-13,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,208,145,186,167,93,215,6,Healthy
+INV157,2025-12-14,SKU023,Storage Box,Home Office,Supplier D,Surat,139,58,106,91,43,465,7,Healthy
+INV158,2025-12-17,SKU024,Laptop Stand,Accessories,Supplier A,Surat,243,61,100,204,51,685,6,Healthy
+INV159,2025-12-17,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,422,164,384,202,106,195,6,Healthy
+INV160,2025-12-19,SKU016,Whiteboard,Home Office,Supplier D,Surat,130,69,87,112,37,1235,10,Healthy
+INV161,2025-12-19,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,165,70,186,49,62,640,6,Reorder
+INV162,2025-12-20,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,125,77,107,95,130,50,6,Reorder
+INV163,2025-12-21,SKU008,USB Cable,Electronics,Supplier B,Surat,195,39,119,115,93,130,5,Healthy
+INV164,2025-12-22,SKU020,Mouse Pad,Accessories,Supplier A,Rajkot,91,104,151,44,88,165,5,Reorder
+INV165,2025-12-22,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,249,40,134,155,75,155,3,Healthy
+INV166,2025-12-24,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,112,61,112,61,39,535,8,Healthy
+INV167,2025-12-26,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,38,45,24,59,42,400,7,Healthy
+INV168,2025-12-27,SKU014,Power Bank,Electronics,Supplier B,Surat,223,53,180,96,70,830,7,Healthy
+INV169,2025-12-28,SKU006,Monitor Stand,Accessories,Supplier A,Ahmedabad,77,71,50,98,41,845,5,Healthy
+INV170,2025-12-28,SKU024,Laptop Stand,Accessories,Supplier A,Rajkot,258,61,175,144,48,770,5,Healthy
+INV171,2025-12-29,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,436,176,417,195,88,205,7,Healthy
+INV172,2025-12-29,SKU014,Power Bank,Electronics,Supplier B,Surat,183,52,173,62,60,890,10,Healthy
+INV173,2025-12-31,SKU012,File Organizer,Stationery,Supplier E,Rajkot,485,80,269,296,67,280,5,Healthy
+INV174,2025-12-31,SKU021,Calculator,Stationery,Supplier E,Surat,130,54,118,66,68,370,6,Reorder
+INV175,2026-01-02,SKU004,Keyboard,Electronics,Supplier B,Ahmedabad,53,91,116,28,49,810,8,Reorder
+INV176,2026-01-04,SKU004,Keyboard,Electronics,Supplier B,Vadodara,201,20,124,97,59,735,8,Healthy
+INV177,2026-01-05,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,38,64,65,37,41,1840,9,Reorder
+INV178,2026-01-06,SKU014,Power Bank,Electronics,Supplier B,Surat,105,27,35,97,56,770,9,Healthy
+INV179,2026-01-05,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,456,115,345,226,146,45,5,Healthy
+INV180,2026-01-08,SKU006,Monitor Stand,Accessories,Supplier A,Surat,260,46,163,143,50,895,7,Healthy
+INV181,2026-01-08,SKU018,Webcam,Electronics,Supplier B,Surat,126,34,74,86,32,1890,12,Healthy
+INV182,2026-01-10,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,127,65,102,90,41,535,8,Healthy
+INV183,2026-01-09,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,486,195,248,433,135,45,7,Healthy
+INV184,2026-01-12,SKU023,Storage Box,Home Office,Supplier D,Rajkot,73,62,67,68,47,505,9,Healthy
+INV185,2026-01-11,SKU007,Study Table,Furniture,Supplier C,Vadodara,43,11,23,31,36,4170,11,Reorder
+INV186,2026-01-13,SKU003,Office Chair,Furniture,Supplier C,Vadodara,26,14,15,25,48,3565,11,Reorder
+INV187,2026-01-13,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,229,62,163,128,56,705,6,Healthy
+INV188,2026-01-16,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,80,11,23,68,29,4150,14,Healthy
+INV189,2026-01-17,SKU007,Study Table,Furniture,Supplier C,Rajkot,49,14,38,25,31,4860,14,Reorder
+INV190,2026-01-16,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,37,32,26,43,22,7625,11,Healthy
+INV191,2026-01-19,SKU003,Office Chair,Furniture,Supplier C,Vadodara,67,17,35,49,41,3140,11,Healthy
+INV192,2026-01-20,SKU010,Pen Pack,Stationery,Supplier E,Surat,468,125,408,185,133,45,6,Healthy
+INV193,2026-01-21,SKU006,Monitor Stand,Accessories,Supplier A,Ahmedabad,93,31,55,69,56,835,4,Healthy
+INV194,2026-01-23,SKU003,Office Chair,Furniture,Supplier C,Rajkot,77,29,53,53,42,3305,11,Healthy
+INV195,2026-01-22,SKU014,Power Bank,Electronics,Supplier B,Surat,176,78,154,100,69,770,8,Healthy
+INV196,2026-01-24,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,113,26,119,20,26,7560,11,Reorder
+INV197,2026-01-24,SKU021,Calculator,Stationery,Supplier E,Rajkot,142,65,133,74,64,375,8,Healthy
+INV198,2026-01-27,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,192,108,88,212,47,675,6,Healthy
+INV199,2026-01-27,SKU001,Laptop Bag,Accessories,Supplier A,Rajkot,182,25,146,61,52,725,6,Healthy
+INV200,2026-01-27,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,196,148,270,74,92,75,6,Reorder
+INV201,2026-01-29,SKU008,USB Cable,Electronics,Supplier B,Vadodara,89,34,32,91,90,120,4,Healthy
+INV202,2026-01-30,SKU007,Study Table,Furniture,Supplier C,Vadodara,83,12,58,37,34,4300,13,Healthy
+INV203,2026-01-30,SKU016,Whiteboard,Home Office,Supplier D,Vadodara,67,21,23,65,48,1150,10,Healthy
+INV204,2026-01-31,SKU024,Laptop Stand,Accessories,Supplier A,Rajkot,257,90,150,197,61,765,7,Healthy
+INV205,2026-02-03,SKU018,Webcam,Electronics,Supplier B,Vadodara,147,59,179,27,38,1820,11,Reorder
+INV206,2026-02-02,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,204,53,133,124,32,1885,11,Healthy
+INV207,2026-02-03,SKU007,Study Table,Furniture,Supplier C,Rajkot,85,11,55,41,32,4415,11,Healthy
+INV208,2026-02-04,SKU001,Laptop Bag,Accessories,Supplier A,Rajkot,202,48,147,103,57,685,5,Healthy
+INV209,2026-02-07,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,479,61,308,232,145,45,7,Healthy
+INV210,2026-02-08,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,357,68,338,87,132,50,6,Reorder
+INV211,2026-02-07,SKU012,File Organizer,Stationery,Supplier E,Rajkot,394,125,195,324,78,235,6,Healthy
+INV212,2026-02-08,SKU018,Webcam,Electronics,Supplier B,Surat,149,62,170,41,32,1905,11,Healthy
+INV213,2026-02-09,SKU009,Notebook Set,Stationery,Supplier E,Surat,283,137,253,167,97,80,8,Healthy
+INV214,2026-02-11,SKU008,USB Cable,Electronics,Supplier B,Surat,211,57,177,91,70,135,5,Healthy
+INV215,2026-02-11,SKU022,LED Monitor,Electronics,Supplier B,Surat,202,28,153,77,23,7065,11,Healthy
+INV216,2026-02-12,SKU004,Keyboard,Electronics,Supplier B,Vadodara,75,86,134,27,47,775,7,Reorder
+INV217,2026-02-15,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,336,102,358,80,91,75,7,Reorder
+INV218,2026-02-16,SKU007,Study Table,Furniture,Supplier C,Rajkot,32,22,38,16,34,4375,13,Reorder
+INV219,2026-02-15,SKU006,Monitor Stand,Accessories,Supplier A,Surat,253,56,156,153,40,965,6,Healthy
+INV220,2026-02-17,SKU022,LED Monitor,Electronics,Supplier B,Surat,235,48,143,140,24,6860,13,Healthy
+INV221,2026-02-17,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,394,169,400,163,110,210,8,Healthy
+INV222,2026-02-20,SKU002,Wireless Mouse,Electronics,Supplier B,Ahmedabad,62,55,82,35,49,440,8,Reorder
+INV223,2026-02-21,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,310,73,323,60,122,80,7,Reorder
+INV224,2026-02-21,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,321,210,410,121,105,50,6,Healthy
+INV225,2026-02-22,SKU014,Power Bank,Electronics,Supplier B,Surat,72,107,50,129,73,795,8,Healthy
+INV226,2026-02-24,SKU018,Webcam,Electronics,Supplier B,Surat,153,26,149,30,43,1915,12,Reorder
+INV227,2026-02-23,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,145,16,138,23,43,435,9,Reorder
+INV228,2026-02-24,SKU011,Headphones,Electronics,Supplier B,Vadodara,225,60,122,163,54,1045,6,Healthy
+INV229,2026-02-25,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,157,71,161,67,75,155,6,Reorder
+INV230,2026-02-26,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,259,160,281,138,125,50,4,Healthy
+INV231,2026-02-27,SKU016,Whiteboard,Home Office,Supplier D,Vadodara,112,51,64,99,45,1270,9,Healthy
+INV232,2026-03-02,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,124,38,134,28,56,670,5,Reorder
+INV233,2026-03-03,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,73,23,61,35,27,4145,14,Healthy
+INV234,2026-03-04,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,141,32,113,60,42,575,10,Healthy
+INV235,2026-03-06,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,93,82,136,39,29,7335,12,Healthy
+INV236,2026-03-07,SKU008,USB Cable,Electronics,Supplier B,Surat,99,36,35,100,99,125,4,Healthy
+INV237,2026-03-07,SKU021,Calculator,Stationery,Supplier E,Ahmedabad,214,148,344,18,52,370,5,Reorder
+INV238,2026-03-09,SKU009,Notebook Set,Stationery,Supplier E,Surat,360,205,195,370,104,80,7,Healthy
+INV239,2026-03-10,SKU019,Book Shelf,Furniture,Supplier C,Ahmedabad,29,17,13,33,29,4240,13,Healthy
+INV240,2026-03-11,SKU015,Desk Mat,Accessories,Supplier A,Rajkot,151,33,53,131,55,290,4,Healthy
+INV241,2026-03-12,SKU008,USB Cable,Electronics,Supplier B,Vadodara,103,20,34,89,84,125,5,Healthy
+INV242,2026-03-12,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,215,65,148,132,47,370,9,Healthy
+INV243,2026-03-14,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,202,45,71,176,42,380,7,Healthy
+INV244,2026-03-15,SKU022,LED Monitor,Electronics,Supplier B,Surat,210,71,173,108,27,7770,10,Healthy
+INV245,2026-03-15,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,222,63,107,178,24,7165,12,Healthy
+INV246,2026-03-15,SKU018,Webcam,Electronics,Supplier B,Surat,37,91,39,89,39,1755,10,Healthy
+INV247,2026-03-18,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,248,185,384,49,104,200,7,Reorder
+INV248,2026-03-19,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,49,33,25,57,36,4190,12,Healthy
+INV249,2026-03-18,SKU022,LED Monitor,Electronics,Supplier B,Vadodara,239,61,145,155,29,6835,11,Healthy
+INV250,2026-03-20,SKU004,Keyboard,Electronics,Supplier B,Surat,228,95,176,147,45,795,7,Healthy
+INV251,2026-03-21,SKU023,Storage Box,Home Office,Supplier D,Rajkot,46,64,62,48,50,530,9,Reorder
+INV252,2026-03-22,SKU011,Headphones,Electronics,Supplier B,Ahmedabad,156,93,84,165,49,1140,7,Healthy
+INV253,2026-03-22,SKU008,USB Cable,Electronics,Supplier B,Vadodara,193,51,99,145,97,115,5,Healthy
+INV254,2026-03-24,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,119,49,56,112,36,1230,9,Healthy
+INV255,2026-03-24,SKU004,Keyboard,Electronics,Supplier B,Vadodara,64,38,57,45,44,775,6,Healthy
+INV256,2026-03-27,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,115,120,136,99,47,710,5,Healthy
+INV257,2026-03-27,SKU012,File Organizer,Stationery,Supplier E,Surat,239,131,252,118,73,265,6,Healthy
+INV258,2026-03-29,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,125,57,70,112,34,545,9,Healthy
+INV259,2026-03-28,SKU021,Calculator,Stationery,Supplier E,Ahmedabad,406,206,346,266,66,375,7,Healthy
+INV260,2026-03-29,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,240,131,237,134,105,200,7,Healthy
+INV261,2026-03-30,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,340,194,267,267,114,50,6,Healthy
+INV262,2026-04-01,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,41,21,23,39,23,6515,15,Healthy
+INV263,2026-04-02,SKU009,Notebook Set,Stationery,Supplier E,Surat,239,84,261,62,109,90,8,Reorder
+INV264,2026-04-04,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,211,68,187,92,58,310,5,Healthy
+INV265,2026-04-04,SKU002,Wireless Mouse,Electronics,Supplier B,Ahmedabad,133,51,85,99,45,420,9,Healthy
+INV266,2026-04-04,SKU023,Storage Box,Home Office,Supplier D,Vadodara,55,55,58,52,43,505,9,Healthy
+INV267,2026-04-06,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,79,66,94,51,42,1190,8,Healthy
+INV268,2026-04-06,SKU011,Headphones,Electronics,Supplier B,Ahmedabad,134,83,153,64,44,1140,6,Healthy
+INV269,2026-04-09,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,226,43,161,108,67,145,4,Healthy
+INV270,2026-04-10,SKU014,Power Bank,Electronics,Supplier B,Surat,65,91,85,71,59,830,8,Healthy
+INV271,2026-04-09,SKU007,Study Table,Furniture,Supplier C,Rajkot,56,33,49,40,27,4660,13,Healthy
+INV272,2026-04-10,SKU014,Power Bank,Electronics,Supplier B,Surat,164,43,129,78,52,760,8,Healthy
+INV273,2026-04-11,SKU001,Laptop Bag,Accessories,Supplier A,Rajkot,75,91,88,78,54,670,6,Healthy
+INV274,2026-04-13,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,164,39,161,42,59,320,6,Reorder
+INV275,2026-04-15,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,187,179,232,134,111,40,5,Healthy
+INV276,2026-04-17,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,111,33,100,44,33,515,8,Healthy
+INV277,2026-04-16,SKU022,LED Monitor,Electronics,Supplier B,Surat,69,36,61,44,22,7855,12,Healthy
+INV278,2026-04-18,SKU022,LED Monitor,Electronics,Supplier B,Surat,109,88,171,26,26,7235,12,Reorder
+INV279,2026-04-19,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,209,28,127,110,61,605,6,Healthy
+INV280,2026-04-19,SKU002,Wireless Mouse,Electronics,Supplier B,Ahmedabad,39,60,46,53,40,380,8,Healthy
+INV281,2026-04-21,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,256,66,171,151,102,190,7,Healthy
+INV282,2026-04-22,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,478,171,333,316,98,80,8,Healthy
+INV283,2026-04-24,SKU003,Office Chair,Furniture,Supplier C,Vadodara,89,15,66,38,46,3500,9,Reorder
+INV284,2026-04-25,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,32,27,32,27,27,4190,13,Reorder
+INV285,2026-04-26,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,288,122,129,281,116,80,7,Healthy
+INV286,2026-04-27,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,394,94,344,144,108,185,5,Healthy
+INV287,2026-04-26,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,271,63,240,94,98,75,5,Reorder
+INV288,2026-04-27,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,105,22,84,43,35,575,9,Healthy
+INV289,2026-04-28,SKU016,Whiteboard,Home Office,Supplier D,Surat,101,64,90,75,36,1320,10,Healthy
+INV290,2026-04-29,SKU008,USB Cable,Electronics,Supplier B,Surat,153,51,65,139,81,115,5,Healthy
+INV291,2026-05-01,SKU007,Study Table,Furniture,Supplier C,Vadodara,63,32,38,57,35,4670,12,Healthy
+INV292,2026-05-03,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,383,99,402,80,80,195,6,Reorder
+INV293,2026-05-02,SKU020,Mouse Pad,Accessories,Supplier A,Ahmedabad,102,88,86,104,66,160,3,Healthy
+INV294,2026-05-03,SKU007,Study Table,Furniture,Supplier C,Vadodara,85,20,67,38,29,4180,14,Healthy
+INV295,2026-05-05,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,266,220,201,285,110,75,8,Healthy
+INV296,2026-05-06,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,45,95,70,70,54,425,7,Healthy
+INV297,2026-05-06,SKU018,Webcam,Electronics,Supplier B,Surat,229,34,141,122,38,1715,11,Healthy
+INV298,2026-05-09,SKU015,Desk Mat,Accessories,Supplier A,Surat,86,93,98,81,64,330,6,Healthy
+INV299,2026-05-10,SKU014,Power Bank,Electronics,Supplier B,Ahmedabad,79,98,93,84,69,790,7,Healthy
+INV300,2026-05-11,SKU009,Notebook Set,Stationery,Supplier E,Surat,491,188,400,279,86,80,6,Healthy
+INV301,2026-05-11,SKU024,Laptop Stand,Accessories,Supplier A,Surat,193,82,109,166,67,705,7,Healthy
+INV302,2026-05-11,SKU004,Keyboard,Electronics,Supplier B,Surat,81,73,70,84,57,815,6,Healthy
+INV303,2026-05-14,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,349,174,136,387,87,210,7,Healthy
+INV304,2026-05-14,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,473,118,418,173,90,80,7,Healthy
+INV305,2026-05-16,SKU004,Keyboard,Electronics,Supplier B,Ahmedabad,200,26,73,153,54,810,8,Healthy
+INV306,2026-05-17,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,197,30,104,123,58,670,5,Healthy
+INV307,2026-05-17,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,66,41,40,67,44,1130,10,Healthy
+INV308,2026-05-17,SKU012,File Organizer,Stationery,Supplier E,Rajkot,355,54,362,47,75,265,6,Reorder
+INV309,2026-05-18,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,239,97,181,155,53,315,4,Healthy
+INV310,2026-05-21,SKU020,Mouse Pad,Accessories,Supplier A,Surat,87,105,104,88,79,165,4,Healthy
+INV311,2026-05-22,SKU022,LED Monitor,Electronics,Supplier B,Ahmedabad,201,49,136,114,23,7515,11,Healthy
+INV312,2026-05-22,SKU011,Headphones,Electronics,Supplier B,Surat,188,45,169,64,59,1180,8,Healthy
+INV313,2026-05-23,SKU010,Pen Pack,Stationery,Supplier E,Ahmedabad,210,86,143,153,123,45,5,Healthy
+INV314,2026-05-25,SKU006,Monitor Stand,Accessories,Supplier A,Ahmedabad,243,31,135,139,40,940,5,Healthy
+INV315,2026-05-25,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,93,33,64,62,33,4140,15,Healthy
+INV316,2026-05-27,SKU015,Desk Mat,Accessories,Supplier A,Surat,204,49,186,67,66,300,5,Healthy
+INV317,2026-05-28,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,96,64,100,60,38,590,9,Healthy
+INV318,2026-05-29,SKU023,Storage Box,Home Office,Supplier D,Surat,143,65,70,138,45,550,6,Healthy
+INV319,2026-05-29,SKU021,Calculator,Stationery,Supplier E,Surat,439,91,330,200,53,365,7,Healthy
+INV320,2026-05-31,SKU021,Calculator,Stationery,Supplier E,Rajkot,368,107,419,56,74,375,5,Reorder
+INV321,2026-05-31,SKU020,Mouse Pad,Accessories,Supplier A,Rajkot,76,111,65,122,86,145,3,Healthy
+INV322,2026-06-03,SKU021,Calculator,Stationery,Supplier E,Ahmedabad,466,206,300,372,66,380,5,Healthy
+INV323,2026-06-02,SKU020,Mouse Pad,Accessories,Supplier A,Surat,231,93,166,158,90,155,4,Healthy
+INV324,2026-06-05,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,401,216,421,196,80,210,7,Healthy
+INV325,2026-06-06,SKU018,Webcam,Electronics,Supplier B,Vadodara,230,29,105,154,32,1670,9,Healthy
+INV326,2026-06-05,SKU014,Power Bank,Electronics,Supplier B,Surat,100,78,104,74,60,810,10,Healthy
+INV327,2026-06-06,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,115,65,92,88,35,1125,9,Healthy
+INV328,2026-06-09,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,88,45,66,67,56,620,7,Healthy
+INV329,2026-06-09,SKU014,Power Bank,Electronics,Supplier B,Surat,94,105,166,33,55,880,9,Reorder
+INV330,2026-06-11,SKU011,Headphones,Electronics,Supplier B,Vadodara,217,101,162,156,56,1085,8,Healthy
+INV331,2026-06-12,SKU022,LED Monitor,Electronics,Supplier B,Surat,132,18,139,11,28,7240,12,Reorder
+INV332,2026-06-12,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,63,10,21,52,23,7075,14,Healthy
+INV333,2026-06-12,SKU023,Storage Box,Home Office,Supplier D,Vadodara,85,16,39,62,45,535,7,Healthy
+INV334,2026-06-14,SKU004,Keyboard,Electronics,Supplier B,Vadodara,152,104,85,171,61,830,5,Healthy
+INV335,2026-06-16,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,37,108,50,95,72,115,5,Healthy
+INV336,2026-06-17,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,47,21,29,39,32,3575,14,Healthy
+INV337,2026-06-16,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,75,22,28,69,35,1340,10,Healthy
+INV338,2026-06-18,SKU003,Office Chair,Furniture,Supplier C,Vadodara,44,17,44,17,45,3305,9,Reorder
+INV339,2026-06-19,SKU014,Power Bank,Electronics,Supplier B,Vadodara,140,65,133,72,66,740,10,Healthy
+INV340,2026-06-20,SKU011,Headphones,Electronics,Supplier B,Ahmedabad,194,49,159,84,61,1135,8,Healthy
+INV341,2026-06-22,SKU022,LED Monitor,Electronics,Supplier B,Vadodara,122,65,98,89,22,6850,12,Healthy
+INV342,2026-06-23,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,146,74,163,57,88,75,7,Reorder
+INV343,2026-06-22,SKU012,File Organizer,Stationery,Supplier E,Rajkot,284,122,128,278,81,275,7,Healthy
+INV344,2026-06-23,SKU022,LED Monitor,Electronics,Supplier B,Surat,143,85,164,64,23,6855,10,Healthy
+INV345,2026-06-25,SKU018,Webcam,Electronics,Supplier B,Vadodara,129,38,155,12,32,1995,10,Reorder
+INV346,2026-06-27,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,103,17,43,77,38,515,9,Healthy
+INV347,2026-06-26,SKU021,Calculator,Stationery,Supplier E,Rajkot,433,86,336,183,52,370,7,Healthy
+INV348,2026-06-27,SKU024,Laptop Stand,Accessories,Supplier A,Rajkot,211,31,171,71,65,725,4,Healthy
+INV349,2026-06-28,SKU018,Webcam,Electronics,Supplier B,Surat,41,41,21,61,44,1800,12,Healthy
+INV350,2026-06-30,SKU022,LED Monitor,Electronics,Supplier B,Vadodara,60,93,95,58,30,7080,11,Healthy
+INV351,2026-07-02,SKU004,Keyboard,Electronics,Supplier B,Vadodara,187,35,161,61,53,710,8,Healthy
+INV352,2026-07-03,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,146,112,97,161,55,785,6,Healthy
+INV353,2026-07-03,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,163,170,253,80,106,85,6,Reorder
+INV354,2026-07-03,SKU014,Power Bank,Electronics,Supplier B,Surat,227,64,97,194,65,825,8,Healthy
+INV355,2026-07-06,SKU021,Calculator,Stationery,Supplier E,Surat,248,145,246,147,53,380,5,Healthy
+INV356,2026-07-05,SKU004,Keyboard,Electronics,Supplier B,Surat,84,22,87,19,55,740,7,Reorder
+INV357,2026-07-08,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,210,55,116,149,61,785,5,Healthy
+INV358,2026-07-09,SKU021,Calculator,Stationery,Supplier E,Rajkot,397,90,346,141,56,350,5,Healthy
+INV359,2026-07-10,SKU024,Laptop Stand,Accessories,Supplier A,Rajkot,114,85,91,108,54,750,6,Healthy
+INV360,2026-07-12,SKU016,Whiteboard,Home Office,Supplier D,Surat,83,43,59,67,42,1300,11,Healthy
+INV361,2026-07-12,SKU024,Laptop Stand,Accessories,Supplier A,Surat,228,57,162,123,56,730,5,Healthy
+INV362,2026-07-14,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,83,105,141,47,39,1755,10,Healthy
+INV363,2026-07-13,SKU012,File Organizer,Stationery,Supplier E,Rajkot,497,199,191,505,82,260,7,Healthy
+INV364,2026-07-15,SKU022,LED Monitor,Electronics,Supplier B,Surat,94,36,58,72,29,7445,12,Healthy
+INV365,2026-07-17,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,48,31,42,37,37,4200,13,Reorder
+INV366,2026-07-18,SKU018,Webcam,Electronics,Supplier B,Surat,229,90,178,141,31,1940,11,Healthy
+INV367,2026-07-19,SKU022,LED Monitor,Electronics,Supplier B,Surat,101,98,134,65,29,7645,12,Healthy
+INV368,2026-07-19,SKU019,Book Shelf,Furniture,Supplier C,Ahmedabad,66,33,41,58,36,3900,14,Healthy
+INV369,2026-07-20,SKU019,Book Shelf,Furniture,Supplier C,Rajkot,41,12,16,37,35,3885,14,Healthy
+INV370,2026-07-20,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,83,31,56,58,35,3555,13,Healthy
+INV371,2026-07-22,SKU017,Printer Paper,Stationery,Supplier E,Surat,456,143,339,260,108,200,6,Healthy
+INV372,2026-07-22,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,369,55,321,103,114,45,6,Reorder
+INV373,2026-07-23,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,185,88,219,54,85,190,6,Reorder
+INV374,2026-07-25,SKU012,File Organizer,Stationery,Supplier E,Rajkot,448,181,208,421,76,230,7,Healthy
+INV375,2026-07-25,SKU003,Office Chair,Furniture,Supplier C,Vadodara,64,23,57,30,41,3285,12,Reorder
+INV376,2026-07-28,SKU004,Keyboard,Electronics,Supplier B,Surat,110,81,158,33,51,710,6,Reorder
+INV377,2026-07-29,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,236,201,252,185,127,45,5,Healthy
+INV378,2026-07-29,SKU023,Storage Box,Home Office,Supplier D,Rajkot,78,48,89,37,49,470,9,Reorder
+INV379,2026-07-30,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,182,114,206,90,146,45,6,Reorder
+INV380,2026-07-30,SKU003,Office Chair,Furniture,Supplier C,Vadodara,86,9,49,46,41,3020,10,Healthy
+INV381,2026-07-31,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,183,192,253,122,125,45,7,Reorder
+INV382,2026-08-02,SKU008,USB Cable,Electronics,Supplier B,Vadodara,154,43,52,145,77,135,5,Healthy
+INV383,2026-08-03,SKU017,Printer Paper,Stationery,Supplier E,Surat,447,115,422,140,91,190,7,Healthy
+INV384,2026-08-03,SKU006,Monitor Stand,Accessories,Supplier A,Surat,239,59,158,140,42,970,7,Healthy
+INV385,2026-08-05,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,149,33,108,74,83,120,4,Reorder
+INV386,2026-08-07,SKU023,Storage Box,Home Office,Supplier D,Vadodara,90,29,98,21,47,500,8,Reorder
+INV387,2026-08-07,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,102,114,122,94,60,660,5,Healthy
+INV388,2026-08-07,SKU021,Calculator,Stationery,Supplier E,Surat,497,178,194,481,62,390,8,Healthy
+INV389,2026-08-08,SKU015,Desk Mat,Accessories,Supplier A,Surat,104,34,73,65,56,325,6,Healthy
+INV390,2026-08-10,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,100,98,161,37,48,420,7,Reorder
+INV391,2026-08-11,SKU011,Headphones,Electronics,Supplier B,Surat,157,18,92,83,48,1160,9,Healthy
+INV392,2026-08-12,SKU018,Webcam,Electronics,Supplier B,Ahmedabad,64,44,46,62,44,1905,11,Healthy
+INV393,2026-08-13,SKU023,Storage Box,Home Office,Supplier D,Vadodara,46,56,47,55,62,545,7,Reorder
+INV394,2026-08-14,SKU003,Office Chair,Furniture,Supplier C,Ahmedabad,35,26,12,49,46,3490,9,Healthy
+INV395,2026-08-14,SKU006,Monitor Stand,Accessories,Supplier A,Rajkot,80,115,168,27,49,955,6,Reorder
+INV396,2026-08-17,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,29,35,35,29,24,6455,14,Healthy
+INV397,2026-08-18,SKU003,Office Chair,Furniture,Supplier C,Rajkot,61,15,20,56,49,3095,11,Healthy
+INV398,2026-08-18,SKU011,Headphones,Electronics,Supplier B,Ahmedabad,191,43,143,91,44,1090,6,Healthy
+INV399,2026-08-19,SKU011,Headphones,Electronics,Supplier B,Vadodara,97,90,155,32,47,1100,8,Reorder
+INV400,2026-08-20,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,404,86,227,263,107,185,6,Healthy
+INV401,2026-08-21,SKU009,Notebook Set,Stationery,Supplier E,Ahmedabad,286,100,261,125,95,80,6,Healthy
+INV402,2026-08-22,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,116,55,90,81,39,525,9,Healthy
+INV403,2026-08-23,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,318,96,349,65,88,205,6,Reorder
+INV404,2026-08-25,SKU008,USB Cable,Electronics,Supplier B,Surat,84,24,49,59,71,125,5,Reorder
+INV405,2026-08-26,SKU004,Keyboard,Electronics,Supplier B,Surat,249,117,113,253,62,815,6,Healthy
+INV406,2026-08-27,SKU019,Book Shelf,Furniture,Supplier C,Vadodara,84,13,53,44,37,3835,13,Healthy
+INV407,2026-08-29,SKU012,File Organizer,Stationery,Supplier E,Ahmedabad,391,64,165,290,83,275,7,Healthy
+INV408,2026-08-30,SKU008,USB Cable,Electronics,Supplier B,Surat,181,75,177,79,81,110,5,Reorder
+INV409,2026-08-31,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,161,95,106,150,39,390,6,Healthy
+INV410,2026-09-02,SKU002,Wireless Mouse,Electronics,Supplier B,Surat,201,75,185,91,53,410,7,Healthy
+INV411,2026-09-03,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,90,74,116,48,47,1295,8,Healthy
+INV412,2026-09-04,SKU001,Laptop Bag,Accessories,Supplier A,Rajkot,249,26,108,167,47,710,4,Healthy
+INV413,2026-09-06,SKU004,Keyboard,Electronics,Supplier B,Surat,69,45,60,54,48,715,6,Healthy
+INV414,2026-09-07,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,94,100,73,121,47,425,9,Healthy
+INV415,2026-09-08,SKU016,Whiteboard,Home Office,Supplier D,Surat,109,32,66,75,44,1205,10,Healthy
+INV416,2026-09-10,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,352,98,337,113,103,50,4,Healthy
+INV417,2026-09-11,SKU003,Office Chair,Furniture,Supplier C,Rajkot,38,40,53,25,37,3015,10,Reorder
+INV418,2026-09-12,SKU010,Pen Pack,Stationery,Supplier E,Surat,355,175,196,334,128,50,5,Healthy
+INV419,2026-09-14,SKU009,Notebook Set,Stationery,Supplier E,Surat,265,72,168,169,119,90,6,Healthy
+INV420,2026-09-15,SKU024,Laptop Stand,Accessories,Supplier A,Surat,266,124,192,198,61,780,6,Healthy
+INV421,2026-09-16,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,96,27,60,63,30,6445,14,Healthy
+INV422,2026-09-18,SKU007,Study Table,Furniture,Supplier C,Vadodara,100,11,41,70,32,4715,11,Healthy
+INV423,2026-09-19,SKU009,Notebook Set,Stationery,Supplier E,Surat,526,91,158,459,111,85,7,Healthy
+INV424,2026-09-20,SKU003,Office Chair,Furniture,Supplier C,Vadodara,63,13,35,41,40,3230,9,Healthy
+INV425,2026-09-22,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,96,65,101,60,50,1105,10,Healthy
+INV426,2026-09-23,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,41,10,16,35,30,7200,15,Healthy
+INV427,2026-09-24,SKU018,Webcam,Electronics,Supplier B,Surat,206,26,101,131,31,1915,11,Healthy
+INV428,2026-09-26,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,193,51,143,101,59,710,5,Healthy
+INV429,2026-09-27,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,118,42,85,75,49,1270,10,Healthy
+INV430,2026-09-28,SKU020,Mouse Pad,Accessories,Supplier A,Surat,237,107,184,160,73,150,6,Healthy
+INV431,2026-09-30,SKU021,Calculator,Stationery,Supplier E,Rajkot,229,115,313,31,60,370,6,Reorder
+INV432,2026-10-01,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,348,124,436,36,87,210,7,Reorder
+INV433,2026-10-02,SKU009,Notebook Set,Stationery,Supplier E,Surat,268,94,130,232,124,80,7,Healthy
+INV434,2026-10-04,SKU023,Storage Box,Home Office,Supplier D,Vadodara,96,71,119,48,59,495,8,Reorder
+INV435,2026-10-05,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,46,32,36,42,25,7235,13,Healthy
+INV436,2026-10-06,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,344,180,374,150,144,40,6,Healthy
+INV437,2026-10-08,SKU012,File Organizer,Stationery,Supplier E,Surat,456,118,318,256,76,235,6,Healthy
+INV438,2026-10-09,SKU023,Storage Box,Home Office,Supplier D,Surat,63,25,34,54,43,555,7,Healthy
+INV439,2026-10-10,SKU005,Desk Lamp,Home Office,Supplier D,Vadodara,67,36,73,30,36,560,7,Reorder
+INV440,2026-10-12,SKU008,USB Cable,Electronics,Supplier B,Vadodara,86,107,133,60,88,125,3,Reorder
+INV441,2026-10-13,SKU001,Laptop Bag,Accessories,Supplier A,Ahmedabad,93,28,47,74,44,650,5,Healthy
+INV442,2026-10-14,SKU007,Study Table,Furniture,Supplier C,Vadodara,90,31,33,88,32,4170,14,Healthy
+INV443,2026-10-16,SKU006,Monitor Stand,Accessories,Supplier A,Ahmedabad,213,52,193,72,43,925,6,Healthy
+INV444,2026-10-17,SKU012,File Organizer,Stationery,Supplier E,Surat,446,165,406,205,79,255,5,Healthy
+INV445,2026-10-18,SKU024,Laptop Stand,Accessories,Supplier A,Rajkot,168,117,134,151,56,660,5,Healthy
+INV446,2026-10-20,SKU008,USB Cable,Electronics,Supplier B,Ahmedabad,107,118,98,127,93,135,4,Healthy
+INV447,2026-10-21,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,150,54,180,24,67,680,6,Reorder
+INV448,2026-10-22,SKU014,Power Bank,Electronics,Supplier B,Surat,58,41,26,73,69,830,8,Healthy
+INV449,2026-10-24,SKU010,Pen Pack,Stationery,Supplier E,Surat,289,110,167,232,146,45,6,Healthy
+INV450,2026-10-25,SKU006,Monitor Stand,Accessories,Supplier A,Surat,172,86,148,110,55,860,4,Healthy
+INV451,2026-10-26,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,77,50,105,22,41,1330,10,Reorder
+INV452,2026-10-28,SKU020,Mouse Pad,Accessories,Supplier A,Surat,189,29,126,92,68,160,3,Healthy
+INV453,2026-10-29,SKU010,Pen Pack,Stationery,Supplier E,Rajkot,178,227,219,186,120,45,4,Healthy
+INV454,2026-10-30,SKU015,Desk Mat,Accessories,Supplier A,Rajkot,127,77,68,136,52,310,4,Healthy
+INV455,2026-11-01,SKU022,LED Monitor,Electronics,Supplier B,Vadodara,82,105,177,10,29,7635,13,Reorder
+INV456,2026-11-02,SKU007,Study Table,Furniture,Supplier C,Rajkot,75,16,66,25,27,4335,12,Reorder
+INV457,2026-11-03,SKU008,USB Cable,Electronics,Supplier B,Surat,174,49,150,73,90,115,3,Reorder
+INV458,2026-11-05,SKU005,Desk Lamp,Home Office,Supplier D,Rajkot,84,41,111,14,31,580,8,Reorder
+INV459,2026-11-06,SKU016,Whiteboard,Home Office,Supplier D,Vadodara,148,20,56,112,45,1290,9,Healthy
+INV460,2026-11-07,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,73,33,75,31,31,6490,14,Reorder
+INV461,2026-11-09,SKU004,Keyboard,Electronics,Supplier B,Surat,59,85,46,98,46,780,6,Healthy
+INV462,2026-11-10,SKU006,Monitor Stand,Accessories,Supplier A,Rajkot,147,82,109,120,51,840,4,Healthy
+INV463,2026-11-11,SKU009,Notebook Set,Stationery,Supplier E,Surat,321,125,166,280,91,85,7,Healthy
+INV464,2026-11-13,SKU015,Desk Mat,Accessories,Supplier A,Ahmedabad,174,76,187,63,52,290,4,Healthy
+INV465,2026-11-14,SKU017,Printer Paper,Stationery,Supplier E,Ahmedabad,436,74,349,161,112,215,7,Healthy
+INV466,2026-11-15,SKU014,Power Bank,Electronics,Supplier B,Surat,116,24,95,45,73,780,10,Reorder
+INV467,2026-11-17,SKU010,Pen Pack,Stationery,Supplier E,Surat,473,217,410,280,115,45,4,Healthy
+INV468,2026-11-18,SKU004,Keyboard,Electronics,Supplier B,Vadodara,211,58,185,84,60,805,7,Healthy
+INV469,2026-11-19,SKU010,Pen Pack,Stationery,Supplier E,Surat,241,221,287,175,133,45,6,Healthy
+INV470,2026-11-21,SKU016,Whiteboard,Home Office,Supplier D,Surat,49,42,29,62,49,1255,9,Healthy
+INV471,2026-11-22,SKU003,Office Chair,Furniture,Supplier C,Vadodara,57,9,28,38,43,3525,10,Reorder
+INV472,2026-11-23,SKU013,Ergonomic Chair,Furniture,Supplier C,Vadodara,72,37,59,50,28,6500,16,Healthy
+INV473,2026-11-25,SKU014,Power Bank,Electronics,Supplier B,Surat,210,102,138,174,72,875,9,Healthy
+INV474,2026-11-26,SKU004,Keyboard,Electronics,Supplier B,Surat,58,114,133,39,52,725,6,Reorder
+INV475,2026-11-27,SKU011,Headphones,Electronics,Supplier B,Vadodara,68,114,120,62,54,1105,7,Healthy
+INV476,2026-11-29,SKU013,Ergonomic Chair,Furniture,Supplier C,Rajkot,76,19,66,29,22,6750,15,Healthy
+INV477,2026-11-30,SKU005,Desk Lamp,Home Office,Supplier D,Vadodara,145,63,58,150,40,520,8,Healthy
+INV478,2026-12-01,SKU004,Keyboard,Electronics,Supplier B,Vadodara,202,34,158,78,53,805,8,Healthy
+INV479,2026-12-03,SKU001,Laptop Bag,Accessories,Supplier A,Rajkot,234,31,78,187,61,665,6,Healthy
+INV480,2026-12-04,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,59,17,53,23,43,1120,8,Reorder
+INV481,2026-12-05,SKU016,Whiteboard,Home Office,Supplier D,Rajkot,60,38,73,25,39,1230,8,Reorder
+INV482,2026-12-07,SKU005,Desk Lamp,Home Office,Supplier D,Vadodara,53,22,30,45,36,550,8,Healthy
+INV483,2026-12-08,SKU011,Headphones,Electronics,Supplier B,Surat,114,104,61,157,45,1230,8,Healthy
+INV484,2026-12-09,SKU005,Desk Lamp,Home Office,Supplier D,Vadodara,152,17,104,65,34,515,9,Healthy
+INV485,2026-12-11,SKU008,USB Cable,Electronics,Supplier B,Surat,181,45,92,134,78,115,4,Healthy
+INV486,2026-12-12,SKU024,Laptop Stand,Accessories,Supplier A,Ahmedabad,210,44,75,179,51,740,6,Healthy
+INV487,2026-12-13,SKU006,Monitor Stand,Accessories,Supplier A,Rajkot,159,50,129,80,41,905,4,Healthy
+INV488,2026-12-15,SKU012,File Organizer,Stationery,Supplier E,Rajkot,308,95,190,213,62,260,7,Healthy
+INV489,2026-12-16,SKU023,Storage Box,Home Office,Supplier D,Rajkot,92,42,54,80,58,495,6,Healthy
+INV490,2026-12-17,SKU002,Wireless Mouse,Electronics,Supplier B,Vadodara,193,112,160,145,54,370,6,Healthy
+INV491,2026-12-19,SKU006,Monitor Stand,Accessories,Supplier A,Rajkot,167,106,185,88,44,875,4,Healthy
+INV492,2026-12-20,SKU003,Office Chair,Furniture,Supplier C,Rajkot,57,38,40,55,50,2970,12,Healthy
+INV493,2026-12-21,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,90,14,44,60,30,7130,14,Healthy
+INV494,2026-12-23,SKU018,Webcam,Electronics,Supplier B,Surat,106,61,71,96,32,1815,11,Healthy
+INV495,2026-12-24,SKU014,Power Bank,Electronics,Supplier B,Surat,131,93,149,75,58,810,9,Healthy
+INV496,2026-12-25,SKU009,Notebook Set,Stationery,Supplier E,Rajkot,350,94,186,258,104,75,8,Healthy
+INV497,2026-12-27,SKU017,Printer Paper,Stationery,Supplier E,Rajkot,323,109,189,243,98,205,8,Healthy
+INV498,2026-12-28,SKU016,Whiteboard,Home Office,Supplier D,Vadodara,65,15,42,38,37,1160,9,Healthy
+INV499,2026-12-29,SKU014,Power Bank,Electronics,Supplier B,Vadodara,134,57,59,132,55,810,8,Healthy
+INV500,2026-12-31,SKU013,Ergonomic Chair,Furniture,Supplier C,Ahmedabad,25,29,17,37,21,6940,15,Healthy
