@@ -1,7 +1,7 @@
 # Inventory & Supply Chain Management Dashboard 
 
 **Live Dashboard / Snapshot:** 
-![Dashboard Preview](https://github.com/jaydip-lakum/Inventory-Management-PowerBI/blob/main/Inverntory_Management_Dash....jpg)
+![Dashboard Preview](https://github.com/jaydip-lakum/Inventory-Management-PowerBI/blob/main/Inverntory_Management_Dash...jpg)
 
 ##  Quick Overview
 An interactive Power BI dashboard analyzing **500 records** of supply chain data. Built to help procurement teams track inventory health, monitor supplier performance, and instantly identify stockout risks.
